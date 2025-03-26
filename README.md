@@ -3,7 +3,7 @@
 ## Chapter 1: Getting Started
 
 - Day 1: [Computers and Numbers](docs/computer-and-numbers.md)
-- ARM Assembly Instructions
+- [ARM Assembly Instructions](docs/arm-assembly-instructions.md)
   - CPU Registers
   - ARM Instruction Format
   - Computer Memory
