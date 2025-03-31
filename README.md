@@ -1,5 +1,27 @@
 # Programming with 64 bit ARM assembly language
 
+## Reference
+
+- https://www.arm.com/architecture/learn-the-architecture/a-profile
+- https://developer.arm.com/documentation/102374/0102
+- 
+
+## Opcodes
+
+- **LDR** - Loads data from memory into a register
+- **SVC** - Supervisor Call, triggers system calls for OS services
+- **MOV** - Moves/copies a value into a register
+- **MOVK** - Moves a 16-bit value into a register while keeping other bits
+- **MOVN** - Moves the bitwise NOT of an immediate value into a register
+- **LSL** - Logical Shift Left, shifts bits left (multiplication by powers of 2)
+- **LSR** - Logical Shift Right, shifts bits right with 0s in vacated positions
+- **ASR** - Arithmetic Shift Right, shifts bits right but preserves sign bit
+- **ROR** - Rotate Right, shifts bits right with wrap-around
+- **ADD** - Adds two values
+- **ADDS** - Adds two values and updates status flags
+- **ADC** - Adds two values with carry
+  
+
 ## Chapter 1: Getting Started
 
 - Day 1: [Computers and Numbers](docs/computer-and-numbers.md)
@@ -9,20 +31,13 @@
   - Computer Memory
 - About the GCC Assembler
 - Hello World
-  - About Comments
-  - Where to Start
-  - Assembly Instructions
-  - Data
-  - Calling Linux
-  - Reverse Engineering Our Program
 - Summary
 - Exercises
 
 ## Chapter 2: Loading and Adding
 
 - Negative Numbers
-  - About Two's Complement
-  - About Gnome Programmer's Calculator
+  - [About Two's Complement](docs/twos-complement.md)
   - About One's Complement
 - Big vs. Little Endian
   - About Bi-endian
