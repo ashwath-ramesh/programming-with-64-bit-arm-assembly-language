@@ -4,15 +4,11 @@
 
 - https://www.arm.com/architecture/learn-the-architecture/a-profile
 - https://developer.arm.com/documentation/102374/0102
-- 
+- https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html 
+
 
 ## Opcodes
 
-- **LDR** - Loads data from memory into a register
-- **SVC** - Supervisor Call, triggers system calls for OS services
-- **MOV** - Moves/copies a value into a register
-- **MOVK** - Moves a 16-bit value into a register while keeping other bits
-- **MOVN** - Moves the bitwise NOT of an immediate value into a register
 - **LSL** - Logical Shift Left, shifts bits left (multiplication by powers of 2)
 - **LSR** - Logical Shift Right, shifts bits right with 0s in vacated positions
 - **ASR** - Arithmetic Shift Right, shifts bits right but preserves sign bit
@@ -20,7 +16,25 @@
 - **ADD** - Adds two values
 - **ADDS** - Adds two values and updates status flags
 - **ADC** - Adds two values with carry
-  
+- **LDR** - Loads data from memory into a register
+- **SVC** - Supervisor Call, triggers system calls for OS services
+
+------------------------------------------------------------------------------------------  
+
+## Topics
+
+- [MOV](mov) - Moves/copies a value into a register
+- [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
+- **MOVK** - Moves a 16-bit value into a register while keeping other bits
+- **Bit Shifting using MOV** - Shifts bits left or right
+  - **LSL** - Logical Shift Left, shifts bits left (multiplication by powers of 2)
+  - **LSR** - Logical Shift Right, shifts bits right with 0s in vacated positions
+  - **ASR** - Arithmetic Shift Right, shifts bits right but preserves sign bit
+  - **ROR** - Rotate Right, shifts bits right with wrap-around
+- Load data `.data`
+
+
+------------------------------------------------------------------------------------------  
 
 ## Chapter 1: Getting Started
 
