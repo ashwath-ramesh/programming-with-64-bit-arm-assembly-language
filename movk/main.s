@@ -16,10 +16,12 @@ basic_moves:
     MOVK    X1, #0xF                    // Sets lowest 16 bits to 0xF
                                         // binary=0x000000000000000F
                                         
-    MOVK    X2, #0xF, LSL #16           // binary=0x000000000F000000 hex=0xF000000
+    // binary=0b0000000000000000000000001111000000000000 hex=0xF000000
+    MOVK    X2, #0xF, LSL #16           
 
     // Notice how LSL shifts the 16-bit value left by the specified number of bits.
-    MOVK    X2, #0xF, LSL #32           // binary=0x000F00000F000000 hex=0xF00000F000000
+    // binary=0b0000000000001111000000000000111100000000000000 hex=0xF00000F000000
+    MOVK    X2, #0xF, LSL #32           
 
     B   exit            // Branch to exit
 
