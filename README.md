@@ -7,16 +7,6 @@
 - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html 
 
 
-## Opcodes
-
-- **ADD** - Adds two values
-- **ADDS** - Adds two values and updates status flags
-- **ADC** - Adds two values with carry
-- **LDR** - Loads data from memory into a register
-- **SVC** - Supervisor Call, triggers system calls for OS services
-
-------------------------------------------------------------------------------------------  
-
 ## Topics
 
 - [MOV](mov) - Moves/copies a value into a register
@@ -28,6 +18,12 @@
   - **ASR** - Arithmetic Shift Right, shifts bits right but preserves sign bit
   - **ROR** - Rotate Right, shifts bits right with wrap-around
 - [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
+- [ADD](add) - Add two values
+- MOVN & ADD: get 2's complement of a value. Why do we need to know this? => Carry flag.
+- **ADDS** - Adds two values and updates status flags
+- **ADC** - Adds two values with carry
+- **LDR** - Loads data from memory into a register
+- **SVC** - Supervisor Call, triggers system calls for OS services
 - Load data `.data`
 
 

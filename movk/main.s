@@ -13,8 +13,7 @@ basic_moves:
     MOVZ    X2, #0                      // Initialize X2 to 0
 
     // Now use MOVK to set specific 16-bit portions while keeping other bits
-    MOVK    X1, #0xF                    // Sets lowest 16 bits to 0xF
-                                        // binary=0x000000000000000F
+    MOVK    X1, #0xF                    
                                         
     // binary=0b0000000000000000000000001111000000000000 hex=0xF000000
     MOVK    X2, #0xF, LSL #16           
