@@ -25,7 +25,8 @@
 
 - [MOV](mov) - Moves/copies a value into a register
 - [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
-- **MOVK** - Moves a 16-bit value into a register while keeping other bits
+- [MOVZ](movz) - Moves a 16-bit value into a register while keeping other bits
+- [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
 - **Bit Shifting using MOV** - Shifts bits left or right
   - **LSL** - Logical Shift Left, shifts bits left (multiplication by powers of 2)
   - **LSR** - Logical Shift Right, shifts bits right with 0s in vacated positions
