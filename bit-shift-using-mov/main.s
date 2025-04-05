@@ -2,8 +2,13 @@
 // Bit shift using MOV
 // - LSL: Logical Shift Left, shifts bits left (multiplication by powers of 2)
 // - LSR: Logical Shift Right, shifts bits right with 0s in vacated positions
-//
+// - ROR: Rotate Right, shifts bits right with wrap-around to leftmost position
+// - ASR: Arithmetic Shift Right, shifts bits right but preserves sign bit
+// - References: 
 // https://developer.arm.com/documentation/ddi0602/2022-06/Base-Instructions/LSL--register---Logical-Shift-Left--register---an-alias-of-LSLV-
+// https://developer.arm.com/documentation/ddi0602/2022-06/Base-Instructions/LSR--register---Logical-Shift-Right--register---an-alias-of-LSRV-
+// https://developer.arm.com/documentation/dui0801/h/A64-General-Instructions/ROR--register-
+// https://developer.arm.com/documentation/dui0801/l/A64-General-Instructions/ASR--register---A64-
 
 
 .global _start	            // Provide program starting address to linker
