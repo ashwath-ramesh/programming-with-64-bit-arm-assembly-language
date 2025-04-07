@@ -1,5 +1,7 @@
 //
 // SUB: Subtracts one value from another value
+// SUBS: Subtracts one value from another value and updates status flags
+// SBC: Subtracts one value from another value with borrow from previous SUBS instruction
 // 
 
 .global _start	            // Provide program starting address to linker

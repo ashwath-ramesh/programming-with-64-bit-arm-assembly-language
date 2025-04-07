@@ -16,16 +16,19 @@
 - [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
 - [MOVZ](movz) - Moves a 16-bit value into a register while keeping other bits
 - [Bit Shifting using MOV](bit-shift-using-mov) - Shifts bits left or right
-  - **LSL** - Logical Shift Left, shifts bits left (multiplication by powers of 2)
-  - **LSR** - Logical Shift Right, shifts bits right with 0s in vacated positions
-  - **ASR** - Arithmetic Shift Right, shifts bits right but preserves sign bit
-  - **ROR** - Rotate Right, shifts bits right with wrap-around
+  - LSL: Logical Shift Left, shifts bits left (multiplication by powers of 2)
+  - LSR: Logical Shift Right, shifts bits right with 0s in vacated positions
+  - ASR: Arithmetic Shift Right, shifts bits right but preserves sign bit
+  - ROR: Rotate Right, shifts bits right with wrap-around
 - [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
 - [ADD](add) - Add two values
 - [ADDS/ADC](adds-adc) - Adds two values and updates status flags, adds two values with carry
+- Add two 192-bit values
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
-- **LDR** - Loads data from memory into a register
-- **SVC** - Supervisor Call, triggers system calls for OS services
+- Subtract two 128-bit values
+
+- LDR: Loads data from memory into a register
+- SVC: Supervisor Call, triggers system calls for OS services
 - Load data `.data`
 
 
