@@ -5,6 +5,9 @@
 - https://www.arm.com/architecture/learn-the-architecture/a-profile
 - https://developer.arm.com/documentation/102374/0102
 - https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html 
+- Current Program Status Register (CPSR): https://developer.arm.com/documentation/ddi0601/2025-03/AArch32-Registers/CPSR--Current-Program-Status-Register
+- Status flags and condition codes (NZCV): https://developer.arm.com/documentation/den0042/a/Unified-Assembly-Language-Instructions/Instruction-set-basics/Status-flags-and-condition-codes
+
 
 
 ## Topics
@@ -19,7 +22,6 @@
   - **ROR** - Rotate Right, shifts bits right with wrap-around
 - [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
 - [ADD](add) - Add two values
-- MOVN & ADD: get 2's complement of a value. Why do we need to know this? => Carry flag.
 - **ADDS** - Adds two values and updates status flags
 - **ADC** - Adds two values with carry
 - **LDR** - Loads data from memory into a register
