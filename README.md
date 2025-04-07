@@ -22,8 +22,8 @@
   - **ROR** - Rotate Right, shifts bits right with wrap-around
 - [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
 - [ADD](add) - Add two values
-- **ADDS** - Adds two values and updates status flags
-- **ADC** - Adds two values with carry
+- [ADDS/ADC](adds-adc) - Adds two values and updates status flags, adds two values with carry
+- [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - **LDR** - Loads data from memory into a register
 - **SVC** - Supervisor Call, triggers system calls for OS services
 - Load data `.data`
