@@ -26,6 +26,26 @@
 - Add two 192-bit values
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - Subtract two 128-bit values
+- Branch On Condition
+  - EQ: Equal
+  - NE: Not Equal
+  - CS/HS: Carry Set/Unsigned Higher or Same
+  - CC/LO: Carry Clear/Unsigned Lower
+  - MI: Negative
+  - PL: Positive or Zero
+  - VS: Overflow Set
+  - VC: Overflow Clear
+- CMP: Compares two values and updates status flags
+- Loops
+  - FOR Loops
+  - While Loops
+- If/Then/Else
+- Logical Operators
+  - AND
+  - EOR
+  - ORR
+  - BIC
+- Convert Integers to ASCII
 
 - LDR: Loads data from memory into a register
 - SVC: Supervisor Call, triggers system calls for OS services
