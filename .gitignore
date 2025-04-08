@@ -42,3 +42,28 @@ release/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Assembly source files
+*.s~      # Backup files for .s sources
+*.S~      # Backup files for .S sources
+
+# Assembler output files
+*.o       # Object files from assembly
+*.lst     # Assembly listing files
+*.sym     # Symbol table files
+*.rel     # Relocatable files
+*.dump    # Memory dump files
+
+# Linker output
+*.map     # Memory map files
+*.ld~     # Backup linker script files
+
+# Debugging
+*.gdb     # GDB debugging files
+core      # Core dump files
+
+# Generated binaries
+*.bin     # Raw binary files
+*.elf     # ELF format executables
+*.hex     # Intel HEX format files
+

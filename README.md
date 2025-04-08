@@ -1,5 +1,7 @@
 # Programming with 64 bit ARM assembly language
 
+Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board Computer Development for Raspberry Pi and Mobile Devices](https://www.amazon.com/dp/1484258800/) by Stephen Smith.
+
 ## Topics
 
 - [MOV](mov) - Moves/copies a value into a register
