@@ -2,10 +2,29 @@
 
 Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board Computer Development for Raspberry Pi and Mobile Devices](https://www.amazon.com/dp/1484258800/) by Stephen Smith.
 
+## How To
+
+```bash
+OS: Ubuntu 22.04
+```
+
+Go to the directory of the topic you want to run.
+```bash
+# Build and run
+make clean
+# -B: forces rebuild
+make -B DEBUG=1
+# Run
+gdb main
+```
+
 ## Topics
 
+### Theory
 - Negative Numbers: 1's complement, 2's complement
 - Big vs. Little Endian
+
+### Loading & basic operations
 - [MOV](mov) - Moves/copies a value into a register
 - [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
 - [MOVZ](movz) - Moves a 16-bit value into a register while keeping other bits
@@ -16,11 +35,10 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - Add two 192-bit values
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - Subtract two 128-bit values
+
+### Program flow
 - [Comparison Instructions](cmp) - CMP, CMN, TST #TODO
-- [Branch](branch)
-  - CMP: Compares two values and updates status flags (N,Z,C,V) for conditional branching
-  - Unconditional Branch
-  - Conditional Branch: EQ, NE, LT, GT
+- [Branch](branch): Unconditional Branch, Conditional Branch: EQ, NE, LT, GT
 - Loops
   - [For Loop](for-loop)
   - [While Loop](while-loop)
@@ -29,15 +47,16 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - [If/Then/Else](if-else)
 - [Logical Operators](logic-ops): AND, EOR, ORR, BIC
 - [Using Expressions in Immediate Constants](using-exps-imm)
-- [Storing a Register to Memory](strb) #TODO
 - Convert Integers to ASCII
 - Why Not Print in Decimal?
+
+### Memory
 - [Memory directives](mem-directives): .ascii, .byte, .word, .short, .long, .quad, .fill, .rept, .endr #TODO
 - [LDR](ldr): Loads address / data from memory into a register
 - [ADR](adr): Loads address into a register
 - Indexing through memory: post indexing, pre indexing
 - STR: Stores a register to memory
-- STRB: Stores a single byte to memory
+- [Storing a Register to Memory](strb) #TODO
 - Double Registers
 
 
