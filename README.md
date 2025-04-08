@@ -41,9 +41,9 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
   - EOR
   - ORR
   - BIC
-- Convert Integers to ASCII
-- Using Expressions in Immediate Constants
+- [Using Expressions in Immediate Constants](using-exps-imm)
 - Storing a Register to Memory
+- Convert Integers to ASCII
 - Why Not Print in Decimal?
 - Performance of Branch Instructions
 - More Comparison Instructions
