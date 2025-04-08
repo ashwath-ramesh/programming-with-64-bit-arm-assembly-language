@@ -25,17 +25,16 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - Subtract two 128-bit values
 - [Branch](branch)
-  - CMP: Compares two values and updates status flags
+  - CMP: Compares two values and updates status flags (N,Z,C,V) for conditional branching
   - Unconditional Branch
   - Conditional Branch
     - EQ: Equal
     - NE: Not Equal
     - LT: Less Than
     - GT: Greater Than
-    
 - Loops
-  - FOR Loops
-  - While Loops
+  - [For Loop](for-loop)
+  - [While Loop](while-loop)
 - If/Then/Else
 - Logical Operators
   - AND
