@@ -42,7 +42,7 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
   - ORR
   - BIC
 - [Using Expressions in Immediate Constants](using-exps-imm)
-- Storing a Register to Memory
+- [Storing a Register to Memory](strb)
 - Convert Integers to ASCII
 - Why Not Print in Decimal?
 - Performance of Branch Instructions
