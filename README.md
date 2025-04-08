@@ -59,9 +59,11 @@ gdb main
 - [Storing a Register to Memory](strb) #TODO
 - Double Registers
 
+### Functions & Stacks
+- xxx
 
+### Linux OS Services
 - SVC: Supervisor Call, triggers system calls for OS services
-- Load data `.data`
 
 
 ## Reference
