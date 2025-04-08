@@ -32,10 +32,9 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - [Storing a Register to Memory](strb) #TODO
 - Convert Integers to ASCII
 - Why Not Print in Decimal?
-- Memory directives: .byte, .word, .short, .long, .quad
-- LDR: Loads address / data from memory into a register
-- PC Relative Addressing
-- ADR: Loads address into a register
+- [Memory directives](mem-directives): .ascii, .byte, .word, .short, .long, .quad, .fill, .rept, .endr #TODO
+- [LDR](ldr): Loads address / data from memory into a register
+- [ADR](adr): Loads address into a register
 - Indexing through memory: post indexing, pre indexing
 - STR: Stores a register to memory
 - STRB: Stores a single byte to memory
