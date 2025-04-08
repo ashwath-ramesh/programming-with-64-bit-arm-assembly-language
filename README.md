@@ -32,11 +32,16 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - [Storing a Register to Memory](strb) #TODO
 - Convert Integers to ASCII
 - Why Not Print in Decimal?
-- Performance of Branch Instructions
+- Memory directives: .byte, .word, .short, .long, .quad
+- LDR: Loads address / data from memory into a register
+- PC Relative Addressing
+- ADR: Loads address into a register
+- Indexing through memory: post indexing, pre indexing
+- STR: Stores a register to memory
+- STRB: Stores a single byte to memory
+- Double Registers
 
 
-
-- LDR: Loads data from memory into a register
 - SVC: Supervisor Call, triggers system calls for OS services
 - Load data `.data`
 
@@ -52,18 +57,6 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 
 
 ------------------------------------------------------------------------------------------  
-
-## Chapter 4: Controlling Program Flow
-
-- Design Patterns
-- Converting Integers to ASCII
-  - Using Expressions in Immediate Constants
-  - Storing a Register to Memory
-  - Why Not Print in Decimal?
-- Performance of Branch Instructions
-- More Comparison Instructions
-- Summary
-- Exercises
 
 ## Chapter 5: Thanks for the Memories
 
