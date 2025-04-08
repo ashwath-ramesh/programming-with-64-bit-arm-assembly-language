@@ -4,6 +4,12 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 
 ## Topics
 
+- Negative Numbers
+  - About Two's Complement
+  - About One's Complement
+- Big vs. Little Endian
+  - About Bi-endian
+  - Pros of Little Endian
 - [MOV](mov) - Moves/copies a value into a register
 - [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
 - [MOVZ](movz) - Moves a 16-bit value into a register while keeping other bits
@@ -18,16 +24,15 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - Add two 192-bit values
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - Subtract two 128-bit values
-- Branch On Condition
-  - EQ: Equal
-  - NE: Not Equal
-  - CS/HS: Carry Set/Unsigned Higher or Same
-  - CC/LO: Carry Clear/Unsigned Lower
-  - MI: Negative
-  - PL: Positive or Zero
-  - VS: Overflow Set
-  - VC: Overflow Clear
-- CMP: Compares two values and updates status flags
+- [Branch](branch)
+  - CMP: Compares two values and updates status flags
+  - Unconditional Branch
+  - Conditional Branch
+    - EQ: Equal
+    - NE: Not Equal
+    - LT: Less Than
+    - GT: Greater Than
+    
 - Loops
   - FOR Loops
   - While Loops
@@ -64,61 +69,6 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 
 
 ------------------------------------------------------------------------------------------  
-
-## Chapter 1: Getting Started
-
-- Computers and Numbers
-- ARM Assembly Instructions
-  - CPU Registers
-  - ARM Instruction Format
-  - Computer Memory
-- About the GCC Assembler
-- Hello World
-- Summary
-- Exercises
-
-## Chapter 2: Loading and Adding
-
-- Negative Numbers
-  - About Two's Complement
-  - About One's Complement
-- Big vs. Little Endian
-  - About Bi-endian
-  - Pros of Little Endian
-- Shifting and Rotating
-  - About Carry Flag
-  - About the Barrel Shifter
-  - Basics of Shifting and Rotating
-- Loading Registers
-  - Instruction Aliases
-  - MOV/MOVK/MOVN
-  - About Operand2
-  - MOVN
-  - MOV Examples
-- ADD/ADC
-  - Add with Carry
-- SUB/SBC
-- Summary
-- Exercises
-
-## Chapter 3: Tooling Up
-
-- GNU Make
-  - Rebuilding a File
-  - A Rule for Building .s Files
-  - Defining Variables
-- GDB
-  - Preparing to Debug
-  - Beginning GDB
-- Cross-Compiling
-  - Emulation
-- Android NDK
-- Apple XCode
-- Source Control and Build Servers
-  - Git
-  - Jenkins
-- Summary
-- Exercises
 
 ## Chapter 4: Controlling Program Flow
 
