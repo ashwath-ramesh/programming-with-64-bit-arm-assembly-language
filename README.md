@@ -36,7 +36,7 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
   - [For Loop](for-loop)
   - [While Loop](while-loop)
 - [If/Then/Else](if-else)
-- Logical Operators
+- [Logical Operators](logic-ops)
   - AND
   - EOR
   - ORR
@@ -71,12 +71,6 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 
 ## Chapter 4: Controlling Program Flow
 
-- If/Then/Else
-- Logical Operators
-  - AND
-  - EOR
-  - ORR
-  - BIC
 - Design Patterns
 - Converting Integers to ASCII
   - Using Expressions in Immediate Constants
