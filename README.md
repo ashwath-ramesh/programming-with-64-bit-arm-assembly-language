@@ -35,7 +35,7 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 - Loops
   - [For Loop](for-loop)
   - [While Loop](while-loop)
-- If/Then/Else
+- [If/Then/Else](if-else)
 - Logical Operators
   - AND
   - EOR
@@ -71,13 +71,6 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 
 ## Chapter 4: Controlling Program Flow
 
-- Unconditional Branch
-- About Condition Flags
-- Branch on Condition
-- About the CMP Instruction
-- Loops
-  - FOR Loops
-  - While Loops
 - If/Then/Else
 - Logical Operators
   - AND
