@@ -4,51 +4,35 @@ Based on the book: [Programming with 64-Bit ARM Assembly Language: Single Board 
 
 ## Topics
 
-- Negative Numbers
-  - About Two's Complement
-  - About One's Complement
+- Negative Numbers: 1's complement, 2's complement
 - Big vs. Little Endian
-  - About Bi-endian
-  - Pros of Little Endian
 - [MOV](mov) - Moves/copies a value into a register
 - [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
 - [MOVZ](movz) - Moves a 16-bit value into a register while keeping other bits
-- [Bit Shifting using MOV](bit-shift-using-mov) - Shifts bits left or right
-  - LSL: Logical Shift Left, shifts bits left (multiplication by powers of 2)
-  - LSR: Logical Shift Right, shifts bits right with 0s in vacated positions
-  - ASR: Arithmetic Shift Right, shifts bits right but preserves sign bit
-  - ROR: Rotate Right, shifts bits right with wrap-around
+- [Bit Shifting using MOV](bit-shift-using-mov) - LSL, LSR, ASR, ROR
 - [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
 - [ADD](add) - Add two values
 - [ADDS/ADC](adds-adc) - Adds two values and updates status flags, adds two values with carry
 - Add two 192-bit values
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - Subtract two 128-bit values
+- [Comparison Instructions](cmp) - CMP, CMN, TST #TODO
 - [Branch](branch)
   - CMP: Compares two values and updates status flags (N,Z,C,V) for conditional branching
   - Unconditional Branch
-  - Conditional Branch
-    - EQ: Equal
-    - NE: Not Equal
-    - LT: Less Than
-    - GT: Greater Than
+  - Conditional Branch: EQ, NE, LT, GT
 - Loops
   - [For Loop](for-loop)
   - [While Loop](while-loop)
+  - [Do-While Loop](do-while-loop) #TODO
+- [Select Case](select-case) #TODO
 - [If/Then/Else](if-else)
-- [Logical Operators](logic-ops)
-  - AND
-  - EOR
-  - ORR
-  - BIC
+- [Logical Operators](logic-ops): AND, EOR, ORR, BIC
 - [Using Expressions in Immediate Constants](using-exps-imm)
-- [Storing a Register to Memory](strb)
+- [Storing a Register to Memory](strb) #TODO
 - Convert Integers to ASCII
 - Why Not Print in Decimal?
 - Performance of Branch Instructions
-- More Comparison Instructions
-  - CMN: Compare Negative
-  - TST: Test
 
 
 
