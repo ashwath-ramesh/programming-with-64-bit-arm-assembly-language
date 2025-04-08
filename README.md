@@ -1,15 +1,5 @@
 # Programming with 64 bit ARM assembly language
 
-## Reference
-
-- https://www.arm.com/architecture/learn-the-architecture/a-profile
-- https://developer.arm.com/documentation/102374/0102
-- https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html 
-- Current Program Status Register (CPSR): https://developer.arm.com/documentation/ddi0601/2025-03/AArch32-Registers/CPSR--Current-Program-Status-Register
-- Status flags and condition codes (NZCV): https://developer.arm.com/documentation/den0042/a/Unified-Assembly-Language-Instructions/Instruction-set-basics/Status-flags-and-condition-codes
-
-
-
 ## Topics
 
 - [MOV](mov) - Moves/copies a value into a register
@@ -46,18 +36,37 @@
   - ORR
   - BIC
 - Convert Integers to ASCII
+- Using Expressions in Immediate Constants
+- Storing a Register to Memory
+- Why Not Print in Decimal?
+- Performance of Branch Instructions
+- More Comparison Instructions
+  - CMN: Compare Negative
+  - TST: Test
+
+
 
 - LDR: Loads data from memory into a register
 - SVC: Supervisor Call, triggers system calls for OS services
 - Load data `.data`
 
 
+## Reference
+
+- https://www.arm.com/architecture/learn-the-architecture/a-profile
+- https://developer.arm.com/documentation/102374/0102
+- https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html 
+- Current Program Status Register (CPSR): https://developer.arm.com/documentation/ddi0601/2025-03/AArch32-Registers/CPSR--Current-Program-Status-Register
+- Status flags and condition codes (NZCV): https://developer.arm.com/documentation/den0042/a/Unified-Assembly-Language-Instructions/Instruction-set-basics/Status-flags-and-condition-codes
+
+
+
 ------------------------------------------------------------------------------------------  
 
 ## Chapter 1: Getting Started
 
-- Day 1: [Computers and Numbers](docs/computer-and-numbers.md)
-- [ARM Assembly Instructions](docs/arm-assembly-instructions.md)
+- Computers and Numbers
+- ARM Assembly Instructions
   - CPU Registers
   - ARM Instruction Format
   - Computer Memory
@@ -69,7 +78,7 @@
 ## Chapter 2: Loading and Adding
 
 - Negative Numbers
-  - [About Two's Complement](docs/twos-complement.md)
+  - About Two's Complement
   - About One's Complement
 - Big vs. Little Endian
   - About Bi-endian
