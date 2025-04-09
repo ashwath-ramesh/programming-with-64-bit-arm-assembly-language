@@ -22,6 +22,6 @@ exit:
     SVC 0                      // Call kernel
 
 .data
-    .align 3                   // Ensure 8-byte alignment
+    .byte 0x1
+    .align 3                   // Ensure alignment
     mynumber: .quad 0x123456789ABCDEF0
-    
