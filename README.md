@@ -52,9 +52,11 @@ gdb main
 
 ### Memory
 - [Memory directives](mem-directives): .ascii, .byte, .word, .short, .long, .quad, .fill, .rept, .endr #TODO
+- Align data
 - [LDR](ldr): Loads address / data from memory into a register
 - [ADR](adr): Loads address into a register
-- Indexing through memory: post indexing, pre indexing
+- [Load data from memory using brackets](data-from-memory)
+- [Indexing through memory](index-mem): post indexing, pre indexing
 - STR: Stores a register to memory
 - [Storing a Register to Memory](strb) #TODO
 - Double Registers
