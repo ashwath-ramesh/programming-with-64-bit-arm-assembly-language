@@ -66,4 +66,4 @@ core      # Core dump files
 *.bin     # Raw binary files
 *.elf     # ELF format executables
 *.hex     # Intel HEX format files
-
+*.main    # Main files

@@ -57,7 +57,7 @@ gdb main
 - [Align data](align)
 - [Load data from memory using brackets](data-from-memory)
 - [Indexing through memory](index-mem): post indexing, pre indexing
-- STR: Stores a register to memory
+- [STR](str): Stores a register to memory
 - [Storing a Register to Memory](strb) #TODO
 - Double Registers
 
