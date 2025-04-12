@@ -58,7 +58,7 @@ gdb main
 - [Load data from memory using brackets](data-from-memory)
 - [Indexing through memory](index-mem): post indexing, pre indexing
 - [STR](str): Stores a register to memory
-- [Storing a Register to Memory](strb) #TODO
+- [STRB](strb): Stores a byte from a register into memory
 - Double Registers
 
 ### Functions & Stacks
