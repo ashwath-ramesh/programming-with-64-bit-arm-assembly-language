@@ -65,7 +65,7 @@ objdump -S main
 - [STR](str): Stores a register to memory
 - [STRB](strb): Stores a byte from a register into memory
 - [STP](stp): Stores multiple registers to memory
-- [Convert a string to uppercase](str-to-upper) #TODO
+- [Convert a string to uppercase](str-to-upper)
 - [Convert a string to lowercase](str-to-lower) #TODO
 - [Convert any non-alphabetic character to a space](non-alpha-to-space) #TODO
 
