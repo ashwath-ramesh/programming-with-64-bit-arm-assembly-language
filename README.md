@@ -32,42 +32,42 @@ objdump -S main
 - Big vs. Little Endian
 
 ### Loading & basic operations
-- [MOV](mov) - Moves/copies a value into a register
-- [MOVN](movn) - Moves the bitwise NOT of an immediate value into a register
-- [MOVZ](movz) - Moves a 16-bit value into a register while keeping other bits
-- [Bit Shifting using MOV](bit-shift-using-mov) - LSL, LSR, ASR, ROR
-- [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
-- [ADD](add) - Add two values
-- [ADDS/ADC](adds-adc) - Adds two values and updates status flags, adds two values with carry
-- [Add two 192-bit values](add-2-192bit-vals)
-- [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
-- Subtract two 128-bit values
+- [MOV](mov/main.s) - Moves/copies a value into a register
+- [MOVN](movn/main.s) - Moves the bitwise NOT of an immediate value into a register
+- [MOVZ](movz/main.s) - Moves a 16-bit value into a register while keeping other bits
+- [Bit Shifting using MOV](bit-shift-using-mov/main.s) - LSL, LSR, ASR, ROR
+- [MOVK](movk/main.s) - Moves a 16-bit value into a register while keeping other bits
+- [ADD](add/main.s) - Add two values
+- [ADDS/ADC](adds-adc/main.s) - Adds two values and updates status flags, adds two values with carry
+- [Add two 192-bit values](add-2-192bit-vals/main.s)
+- [SUB/SUBS/SBC](sub-sub-sbc/main.s) - Subtracts one value from another value; sets status flags; subtracts with carry
+- [Subtract two 128-bit values](sub-2-128bit-vals/main.s)
 
 ### Program flow
-- [Comparison Instructions](cmp) - CMP, CMN, TST #TODO
-- [Branch](branch): Unconditional Branch, Conditional Branch: EQ, NE, LT, GT
-- Loops: [For Loop](for-loop), [While Loop](while-loop), [Do-While Loop](do-while-loop) #TODO
-- [Select Case](select-case) #TODO
-- [If/Then/Else](if-else)
-- [Logical Operators](logic-ops): AND, EOR, ORR, BIC
-- [Using Expressions in Immediate Constants](using-exps-imm)
+- [Comparison Instructions](cmp/main.s) - CMP, CMN, TST #TODO
+- [Branch](branch/main.s): Unconditional Branch, Conditional Branch: EQ, NE, LT, GT
+- Loops: [For Loop](for-loop/main.s), [While Loop](while-loop/main.s), [Do-While Loop](do-while-loop/main.s) #TODO
+- [Select Case](select-case/main.s) #TODO
+- [If/Then/Else](if-else/main.s)
+- [Logical Operators](logic-ops/main.s): AND, EOR, ORR, BIC
+- [Using Expressions in Immediate Constants](using-exps-imm/main.s)
 - Convert Integers to ASCII
 - Why Not Print in Decimal?
 
 ### Memory
-- [Memory directives](mem-directives): .ascii, .byte, .word, .short, .long, .quad, .fill, .rept, .endr #TODO
-- [LDR](ldr): Loads address / data from memory into a register
-- [ADR](adr): Loads address into a register
-- [Align data](align)
-- [LDR](data-from-memory): Load data from memory using address in a register (brackets)
-- [LDRB](ldrb): Loads a byte from memory into a register
-- [Indexing through memory](index-mem): post indexing, pre indexing
-- [STR](str): Stores a register to memory
-- [STRB](strb): Stores a byte from a register into memory
-- [STP](stp): Stores multiple registers to memory
-- [Convert a string to uppercase](str-to-upper)
-- [Convert a string to lowercase](str-to-lower) #TODO
-- [Convert any non-alphabetic character to a space](non-alpha-to-space) #TODO
+- [Memory directives](mem-directives/main.s): .ascii, .byte, .word, .short, .long, .quad, .fill, .rept, .endr #TODO
+- [LDR](ldr/main.s): Loads address / data from memory into a register
+- [ADR](adr/main.s): Loads address into a register
+- [Align data](align/main.s): Aligns data to a specific boundary
+- [LDR](data-from-memory/main.s): Load data from memory using address in a register (brackets)
+- [LDRB](ldrb/main.s): Loads a byte from memory into a register
+- [Indexing through memory](index-mem/main.s): post indexing, pre indexing
+- [STR](str/main.s): Stores a register to memory
+- [STRB](strb/main.s): Stores a byte from a register into memory
+- [STP](stp/main.s): Stores multiple registers to memory
+- [Convert a string to uppercase](str-to-upper/main.s)
+- [Convert a string to lowercase](str-to-lower/main.s) #TODO
+- [Convert any non-alphabetic character to a space](non-alpha-to-space/main.s) #TODO
 
 
 ### Functions & Stacks
