@@ -38,5 +38,3 @@ exit:
     mynumber: .quad 0x123456789ABCDEF0
     storenumber: .quad 0        // Reserve space for storing a quad value
     bytestore: .byte 0          // Reserve space for storing a single byte
-
-    

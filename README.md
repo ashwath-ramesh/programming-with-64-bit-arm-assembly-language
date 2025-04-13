@@ -32,17 +32,14 @@ gdb main
 - [MOVK](movk) - Moves a 16-bit value into a register while keeping other bits
 - [ADD](add) - Add two values
 - [ADDS/ADC](adds-adc) - Adds two values and updates status flags, adds two values with carry
-- Add two 192-bit values
+- [Add two 192-bit values](add-2-192bit-vals)
 - [SUB/SUBS/SBC](sub) - Subtracts one value from another value; sets status flags; subtracts with carry
 - Subtract two 128-bit values
 
 ### Program flow
 - [Comparison Instructions](cmp) - CMP, CMN, TST #TODO
 - [Branch](branch): Unconditional Branch, Conditional Branch: EQ, NE, LT, GT
-- Loops
-  - [For Loop](for-loop)
-  - [While Loop](while-loop)
-  - [Do-While Loop](do-while-loop) #TODO
+- Loops: [For Loop](for-loop), [While Loop](while-loop), [Do-While Loop](do-while-loop) #TODO
 - [Select Case](select-case) #TODO
 - [If/Then/Else](if-else)
 - [Logical Operators](logic-ops): AND, EOR, ORR, BIC
