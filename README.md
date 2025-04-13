@@ -16,7 +16,11 @@ make clean
 make -B DEBUG=1
 # Run
 gdb main
+# Disassemble (examine the assembly code)
+objdump -S main
 ```
+
+
 
 ## Topics
 
@@ -52,11 +56,16 @@ gdb main
 - [LDR](ldr): Loads address / data from memory into a register
 - [ADR](adr): Loads address into a register
 - [Align data](align)
-- [Load data from memory using brackets](data-from-memory)
+- [LDR](data-from-memory): Load data from memory using address in a register (brackets)
+- [LDRB](ldrb): Loads a byte from memory into a register #TODO
 - [Indexing through memory](index-mem): post indexing, pre indexing
 - [STR](str): Stores a register to memory
 - [STRB](strb): Stores a byte from a register into memory
-- Double Registers
+- [STP](stp): Stores multiple registers to memory #TODO
+- [Convert a string to uppercase](str-to-upper) #TODO
+- [Convert a string to lowercase](str-to-lower) #TODO
+- [Convert any non-alphabetic character to a space](non-alpha-to-space) #TODO
+
 
 ### Functions & Stacks
 - xxx
@@ -73,22 +82,7 @@ gdb main
 - Current Program Status Register (CPSR): https://developer.arm.com/documentation/ddi0601/2025-03/AArch32-Registers/CPSR--Current-Program-Status-Register
 - Status flags and condition codes (NZCV): https://developer.arm.com/documentation/den0042/a/Unified-Assembly-Language-Instructions/Instruction-set-basics/Status-flags-and-condition-codes
 
-
-
 ------------------------------------------------------------------------------------------  
-
-## Chapter 5: Thanks for the Memories
-
-- Defining Memory Contents
-  - Aligning Data
-- Loading a Register with an Address
-  - PC Relative Addressing
-- Loading Data from Memory
-  - Indexing Through Memory
-- Storing a Register
-- Double Registers
-- Summary
-- Exercises
 
 ## Chapter 6: Functions and the Stack
 
