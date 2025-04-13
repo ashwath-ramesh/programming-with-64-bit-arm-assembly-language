@@ -57,7 +57,7 @@ objdump -S main
 - [ADR](adr): Loads address into a register
 - [Align data](align)
 - [LDR](data-from-memory): Load data from memory using address in a register (brackets)
-- [LDRB](ldrb): Loads a byte from memory into a register #TODO
+- [LDRB](ldrb): Loads a byte from memory into a register
 - [Indexing through memory](index-mem): post indexing, pre indexing
 - [STR](str): Stores a register to memory
 - [STRB](strb): Stores a byte from a register into memory
