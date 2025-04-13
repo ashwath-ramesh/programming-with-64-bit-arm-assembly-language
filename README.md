@@ -70,6 +70,18 @@ objdump -S main
 - [Convert any non-alphabetic character to a space](non-alpha-to-space/main.s) #TODO
 
 
+### Additional exercises
+
+A few additional exercises to practice the concepts learnt so far. These exercises are not from the book.
+
+| Exercise | Input | Expected Output |
+|----------|-------|----------------|
+| Find length of a string | `.asciz "Hello, ARM assembly world!"` | `24` |
+| Reverse a string | `.asciz "Hello, ARM assembly world!"` | `"!dlrow ylbmessa MRA ,olleH"` |
+| Basic string tokenizer | `.asciz "Hello,ARM,assembly world\tprogramming"` | `"Hello", "ARM", "assembly", "world", "programming"` |
+
+
+
 ### Functions & Stacks
 - xxx
 
