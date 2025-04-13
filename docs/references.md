@@ -8,4 +8,13 @@
 - Status flags and condition codes (NZCV): https://developer.arm.com/documentation/den0042/a/Unified-Assembly-Language-Instructions/Instruction-set-basics/Status-flags-and-condition-codes
 - Encoding of immediate values on AArch64: https://dinfuehr.github.io/blog/encoding-of-immediate-values-on-aarch64/
 - ARM assembly: https://azeria-labs.com/writing-arm-assembly-part-1/
+- https://www.cs.princeton.edu/courses/archive/spr17/cos217/lectures/
 - https://www.coranac.com/tonc/text/asm.htm
+
+
+## Miscellaneous
+
+- https://nemanjatrifunovic.substack.com/p/6502-is-a-good-starting-point-for
+- https://stratechery.com/2025/deepseek-faq/
+- https://thechipletter.substack.com/
+- https://thechipletter.substack.com/p/learning-assembly-for-fun-and-profit

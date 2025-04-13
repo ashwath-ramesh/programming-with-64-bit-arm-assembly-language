@@ -20,7 +20,10 @@ gdb main
 objdump -S main
 ```
 
+## References
 
+- [References](docs/references.md)
+- [Instructions](docs/opcodes.md)
 
 ## Topics
 
