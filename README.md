@@ -61,7 +61,7 @@ objdump -S main
 - [Indexing through memory](index-mem): post indexing, pre indexing
 - [STR](str): Stores a register to memory
 - [STRB](strb): Stores a byte from a register into memory
-- [STP](stp): Stores multiple registers to memory #TODO
+- [STP](stp): Stores multiple registers to memory
 - [Convert a string to uppercase](str-to-upper) #TODO
 - [Convert a string to lowercase](str-to-lower) #TODO
 - [Convert any non-alphabetic character to a space](non-alpha-to-space) #TODO
@@ -72,15 +72,6 @@ objdump -S main
 
 ### Linux OS Services
 - SVC: Supervisor Call, triggers system calls for OS services
-
-
-## Reference
-
-- https://www.arm.com/architecture/learn-the-architecture/a-profile
-- https://developer.arm.com/documentation/102374/0102
-- https://www.rapidtables.com/convert/number/hex-dec-bin-converter.html 
-- Current Program Status Register (CPSR): https://developer.arm.com/documentation/ddi0601/2025-03/AArch32-Registers/CPSR--Current-Program-Status-Register
-- Status flags and condition codes (NZCV): https://developer.arm.com/documentation/den0042/a/Unified-Assembly-Language-Instructions/Instruction-set-basics/Status-flags-and-condition-codes
 
 ------------------------------------------------------------------------------------------  
 
